@@ -74,16 +74,23 @@ function App() {
         <div className='flex justify-between'>
 
           {/* BLOCO 1 */}
-          <div className='bg-blue-500 w-40 h-40 flex'>
-            
+          <div className='bg-blue-500 w-40 h-40 flex flex-col'>
+            <div className='h-20 flex justify-end items-start '>
+              <div className='h-13 w-13 bg-amber-300'></div>
+            </div>
+            <div className='h-20 flex items-end'>
+              <div className='h-13 w-13 bg-amber-300'></div>
+            </div>
           </div>
 
           {/* BLOCO 2 */}
-          <div className='bg-blue-500 w-40 h-40 flex'>
+          <div className='bg-blue-500 w-40 h-40 flex justify-center items-center' >
+            <div className='h-13 w-13 bg-amber-300'></div>
           </div>
 
           {/* BLOCO 3 */}
-          <div className='bg-blue-500 w-40 h-40 flex'>
+          <div className='bg-blue-500 w-40 h-40 flex justify-end'>
+            <div className='h-13 w-13 bg-amber-300'></div>
           </div>
         </div>
 
